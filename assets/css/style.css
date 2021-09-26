@@ -106,7 +106,6 @@ html {
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 0;
     left: 0;
     height: 46px;
     background-color: black;
@@ -117,15 +116,14 @@ html {
 
 #nav, .subnav{
     list-style-type: none;
+}   
 
-}
 #nav > li {
     display: inline-block;
 }
 
 #nav li{
     position: relative;
-
 }
 
 #nav > li > a {
@@ -171,14 +169,30 @@ html {
     font-size: 14px;
 }
 
+#header .mobile-menu-btn {
+    position: absolute;
+    top:0;
+    right: 0;
+    display: none;
+}
+
+#header .mobile-menu-btn,
 #header .nav-search-btn { 
     float: right;
     line-height: 46px;
-
-
-    
 }
 
+
+#header .mobile-menu-btn:hover {
+    background-color: #ccc;
+}
+
+#header .mobile-menu-btn:hover .ti-menu {
+    color: black;
+}
+
+
+#header .menu-icon,
 #header .ti-search {
     color: #fff;
     padding: 0 23px;
@@ -186,6 +200,7 @@ html {
 }
 
 #header .nav-search-btn:hover {
+    cursor: pointer;
     background-color: #f44336;
 }
 
@@ -205,6 +220,7 @@ html {
     color: #fff;
     text-align: center;
     width: 100%;
+    text-shadow: 0 0 5px #000;
 
 }
 
@@ -262,8 +278,6 @@ html {
     
 }
 
-
-
 #content .member-name {
     margin: 15px 0;
 
@@ -319,8 +333,8 @@ html {
 /* place list */
 
 .place-list {
-    margin-top: 26px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 34px;
 }
 
 .place-img {

@@ -1,0 +1,116 @@
+
+/* PC  */
+
+@media (min-width: 1024px) {
+
+}
+
+/* tablet and mobile */
+@media (max-width: 1023px) {
+    .btn{ 
+        padding: 15px 20px;
+    }
+
+    #nav li a{
+        padding: 2px 24px;
+    }
+
+    #nav .subnav a {
+        padding: 4px 40px;
+    }
+
+    .modal-close {
+        padding: 14px;
+    }
+
+    .modal-label {
+        padding: 15px;
+    }
+
+    .modal-input {
+        padding: 15px;
+    }
+
+    .by-tickets {
+        padding: 16px;
+    }
+
+    .socials-list a {
+        padding: 13px;
+    }
+    
+    .footer-p a {
+        padding: 16px 0;
+        display: inline-block;
+    }
+}
+
+/* tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* mobile */
+
+@media (max-width: 739px) {
+
+    .s-full-width,
+    .s-col-full {
+        width: 100% ;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+    
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .nav-search-btn {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav li a{
+        display: block;
+        padding: 2px 24px;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 4px 40px;
+    }
+
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-img { 
+        width: 60%;
+    }
+
+
+
+}
