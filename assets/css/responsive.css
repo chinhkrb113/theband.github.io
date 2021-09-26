@@ -35,6 +35,10 @@
         padding: 16px;
     }
 
+    .contract-form .form-control {
+        padding: 15px ;
+    }
+
     .socials-list a {
         padding: 13px;
     }
